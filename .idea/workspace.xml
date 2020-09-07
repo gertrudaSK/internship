@@ -60,7 +60,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GithubProjectSettings">
     <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="gerda" />
@@ -491,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599504646048</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Deploy Car microservice into docker container">
+      <created>1599504911698</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1599504911698</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -623,14 +629,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="622" y="177" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598554528075" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599504861580">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599504924679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599504861580" />
-    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599504868984">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599504924679" />
+    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599504904594">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599504868984" />
+    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599504904594" />
     <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1597752144713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
