@@ -25,9 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28715f89-0fad-4fa6-906b-2f4a39d1fd9a" name="Default Changelist" comment="Deploy Car microservice into docker container">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="28715f89-0fad-4fa6-906b-2f4a39d1fd9a" name="Default Changelist" comment="Deploy Car microservice into docker container" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +61,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GithubProjectSettings">
     <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="gerda" />
@@ -509,7 +506,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599506245154</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Deploy Car microservice into docker container">
+      <created>1599506847256</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1599506847256</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -565,10 +569,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Deploy Car microservice into docker container" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="845" y="383" key="#Notifications" timestamp="1597929455824">
+    <state x="845" y="383" key="#Notifications" timestamp="1599506826122">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="845" y="383" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1597929455824" />
+    <state x="845" y="383" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1599506826122" />
     <state x="410" y="165" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599476511935">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -641,14 +645,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="79" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599506783761" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599506455511">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599506861297">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599506455511" />
-    <state x="523" y="643" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599506405336">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599506861297" />
+    <state x="523" y="643" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599506837685">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="523" y="643" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599506405336" />
+    <state x="523" y="643" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599506837685" />
     <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1597752144713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
