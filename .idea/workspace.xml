@@ -25,7 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28715f89-0fad-4fa6-906b-2f4a39d1fd9a" name="Default Changelist" comment="Deploy Car microservice into docker container" />
+    <list default="true" id="28715f89-0fad-4fa6-906b-2f4a39d1fd9a" name="Default Changelist" comment="Deploy Car microservice into docker container">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +56,7 @@
         </map>
       </branch-storage>
     </favorite-branches>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="docker" />
@@ -78,7 +81,7 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/car/car_microservice/car_docker" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -625,18 +628,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="598" y="281" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598480654083" />
-    <state x="622" y="177" key="SettingsEditor" timestamp="1598554528075">
+    <state x="656" y="79" key="SettingsEditor" timestamp="1599506231796">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="622" y="177" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598554528075" />
+    <state x="656" y="79" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599506231796" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599504924679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599504924679" />
-    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599504904594">
+    <state x="523" y="643" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599505775222">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599504904594" />
+    <state x="523" y="643" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599505775222" />
     <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1597752144713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -645,10 +648,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="719" y="233" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599346913648" />
-    <state x="623" y="225" width="840" height="678" key="search.everywhere.popup" timestamp="1599489302477">
+    <state x="1097" y="570" key="git4idea.rebase.GitRebaseDialog" timestamp="1599505801506">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="840" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599489302477" />
+    <state x="1097" y="570" key="git4idea.rebase.GitRebaseDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599505801506" />
+    <state x="328" y="281" width="840" height="678" key="search.everywhere.popup" timestamp="1599505915919">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="328" y="281" width="840" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599505915919" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
