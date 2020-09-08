@@ -25,10 +25,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28715f89-0fad-4fa6-906b-2f4a39d1fd9a" name="Default Changelist" comment="Deploy Car microservice into docker container">
+    <list default="true" id="28715f89-0fad-4fa6-906b-2f4a39d1fd9a" name="Default Changelist" comment="Change self._registered_cars_list into Car._registered_cars_list">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car/car.py" beforeDir="false" afterPath="$PROJECT_DIR$/car/car.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car/test_cars.py" beforeDir="false" afterPath="$PROJECT_DIR$/car/test_cars.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -517,7 +515,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599506847256</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Change self._registered_cars_list into Car._registered_cars_list">
+      <created>1599569243476</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1599569243476</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -545,7 +550,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="without unit test and drafts" />
     <MESSAGE value="fixed timer" />
     <MESSAGE value="pytest" />
     <MESSAGE value="in progress" />
@@ -570,13 +574,14 @@
     <MESSAGE value="Car program works properly&#10;&#10;Modificate initial version&#10;Add CarStatus class&#10;Add registered cars formatted text&#10;Change validate number into validate status&#10;Keep car_count because of easy calculations&#10;@getter is used in case of MetaClass" />
     <MESSAGE value="Car microservice tested on Postman&#10;&#10;Execute HTTP requests like in task example using Postman" />
     <MESSAGE value="Deploy Car microservice into docker container" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deploy Car microservice into docker container" />
+    <MESSAGE value="Change self._registered_cars_list into Car._registered_cars_list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change self._registered_cars_list into Car._registered_cars_list" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="845" y="383" key="#Notifications" timestamp="1599506826122">
+    <state x="845" y="383" key="#Notifications" timestamp="1599569668531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="845" y="383" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1599506826122" />
+    <state x="845" y="383" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1599569668531" />
     <state x="410" y="165" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599476511935">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -605,22 +610,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1367" y="520" key="Github.CreatePullRequestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597738750246" />
-    <state width="1893" height="329" key="GridCell.Tab.0.bottom" timestamp="1599569032770">
+    <state width="1183" height="345" key="GridCell.Tab.0.bottom" timestamp="1599569819278">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="329" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599569032770" />
-    <state width="1893" height="329" key="GridCell.Tab.0.center" timestamp="1599569032770">
+    <state width="1183" height="345" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599569819278" />
+    <state width="1183" height="345" key="GridCell.Tab.0.center" timestamp="1599569819278">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="329" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599569032770" />
-    <state width="1893" height="329" key="GridCell.Tab.0.left" timestamp="1599569032770">
+    <state width="1183" height="345" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599569819278" />
+    <state width="1183" height="345" key="GridCell.Tab.0.left" timestamp="1599569819277">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="329" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599569032770" />
-    <state width="1893" height="329" key="GridCell.Tab.0.right" timestamp="1599569032770">
+    <state width="1183" height="345" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599569819277" />
+    <state width="1183" height="345" key="GridCell.Tab.0.right" timestamp="1599569819278">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="329" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599569032770" />
+    <state width="1183" height="345" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599569819278" />
     <state width="1893" height="329" key="GridCell.Tab.1.bottom" timestamp="1599569032770">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -645,18 +650,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="598" y="281" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598480654083" />
-    <state x="656" y="79" key="SettingsEditor" timestamp="1599506783761">
+    <state x="329" y="147" key="SettingsEditor" timestamp="1599569645443">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="79" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599506783761" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599545604661">
+    <state x="329" y="147" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599569645443" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599569250013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599545604661" />
-    <state x="523" y="643" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599506837685">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599569250013" />
+    <state x="523" y="643" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599569312811">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="523" y="643" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599506837685" />
+    <state x="523" y="643" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599569312811" />
     <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1597752144713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -673,6 +678,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1097" y="570" key="git4idea.rebase.GitRebaseDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599505801506" />
+    <state x="605" y="606" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1599569484828">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="605" y="606" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599569484828" />
     <state x="328" y="281" width="840" height="678" key="search.everywhere.popup" timestamp="1599505915919">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
