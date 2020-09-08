@@ -29,13 +29,13 @@ class Car:
 
     def validate_status(self, number):
         if number is not None:
-            if number in self._registered_cars_list:
+            if number in Car._registered_cars_list:
                 self._car_status = CarStatus.assigned_nuber
                 return False
             elif self._car_has_number is True:
                 self.status = CarStatus.number_already_is
                 return False
-            elif number not in self._registered_cars_list:
+            elif number not in Car._registered_cars_list:
                 pattern = re.compile(r'[A-Z]{3}[-]\d{3}')
                 check_reg = pattern.search(number)
                 if not check_reg and self._car_status is CarStatus.successfully_created:

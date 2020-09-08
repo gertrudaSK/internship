@@ -1,4 +1,4 @@
-import car
+from car import car
 
 
 def test_car_number_add_1():
@@ -55,7 +55,7 @@ def test_car_number_add_6():
     assert test9.car_count == 1
     assert test9.registered_cars == 'Registered cars: TTT-666'
 
-
+#
 def test_car_number_del():
     test11 = car.Car('TTT-888')
     test10 = car.Car()
