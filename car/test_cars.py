@@ -1,65 +1,82 @@
+import pytest
+
 from car import car
 
 
-def test_car_number_add_1():
-    test1 = car.Car('TTT-111')
-    assert test1.car_number == 'TTT-111'
-    assert test1.status == 'Successfully registered'
-    assert test1.car_count == 1
-    assert test1.registered_cars == 'Registered cars: TTT-111'
+@pytest.fixture()
+def car_number_one():
+    a = car.Car('AAA-111')
+    return a
 
 
-def test_car_number_add_2():
-    test2 = car.Car('TTT-333')
-    test3 = car.Car()
-    test3.car_number = 'TTT-222'
-    assert test3.car_number == 'TTT-222'
-    assert test3.status == 'Successfully registered'
-    assert test3.car_count == 2
-    assert test3.registered_cars == 'Registered cars: TTT-222, TTT-333'
+@pytest.fixture()
+def car_number_one_init():
+    a = car.Car()
+    a.car_number = 'AAA-111'
+    return a
 
 
-def test_car_number_add_3():
-    test4 = car.Car('TTT-444')
-    test5 = car.Car()
-    test5.car_number = 'TTT-555'
-    test5.car_number = 'TTT-565'
-    assert test5.car_number == 'TTT-555'
-    assert test5.status == 'The car has already number assigned'
-    assert test5.car_count == 2
-    assert test5.registered_cars == 'Registered cars: TTT-444, TTT-555'
+@pytest.fixture()
+def car_number_two():
+    a = car.Car('AAA-111')
+    b = car.Car('BBB-111')
+    return a, b
 
+
+def test_car_number_add_1(car_number_one):
+    assert car_number_one.car_number == 'AAA-111'
+    assert car_number_one.status == 'Successfully registered'
+    assert car_number_one.car_count == 1
+    assert car_number_one.registered_cars == 'Registered cars: AAA-111'
+
+
+def test_car_number_add_2(car_number_one_init):
+    assert car_number_one_init.car_number == 'AAA-111'
+    assert car_number_one_init.status == 'Successfully registered'
+    assert car_number_one_init.car_count == 1
+    assert car_number_one_init.registered_cars == 'Registered cars: AAA-111'
+
+
+def test_car_number_add_3(car_number_one_init):
+    car_number_one_init.car_number = 'BBB-111'
+    assert car_number_one_init.car_number == 'AAA-111'
+    assert car_number_one_init.status == 'The car has already number assigned'
+    assert car_number_one_init.car_count == 1
+    assert car_number_one_init.registered_cars == 'Registered cars: AAA-111'
 
 def test_car_number_add_4():
-    test6 = car.Car('TT5-11r')
-    assert test6.car_number == None
-    assert test6.status == 'Not valid number'
-    assert test6.car_count == 0
-    assert test6.registered_cars == 'There are no registered cars at this moment'
+    test = car.Car('TT5-11r')
+    assert test.car_number == None
+    assert test.status == 'Not valid number'
+    assert test.car_count == 0
+    assert test.registered_cars == 'There are no registered cars at this moment'
 
 
 def test_car_number_add_5():
-    test7 = car.Car()
-    test7.car_number = 'TT1-ee3'
-    assert test7.car_number == None
-    assert test7.status == 'Not valid number'
-    assert test7.car_count == 0
-    assert test7.registered_cars == 'There are no registered cars at this moment'
+    test1 = car.Car()
+    test1.car_number = 'TT1-ee3'
+    assert test1.car_number == None
+    assert test1.status == 'Not valid number'
+    assert test1.car_count == 0
+    assert test1.registered_cars == 'There are no registered cars at this moment'
 
 
-def test_car_number_add_6():
-    test8 = car.Car('TTT-666')
-    test9 = car.Car('TTT-666')
-    assert test9.car_number == None
-    assert test9.status == 'Already registered number'
-    assert test9.car_count == 1
-    assert test9.registered_cars == 'Registered cars: TTT-666'
+def test_car_number_add_6(car_number_one):
+    test2 = car_number_one
+    test3 = car.Car('AAA-111')
+    assert test3.car_number == None
+    assert test3.status == 'Already registered number'
+    assert test3.car_count == 1
+    assert test3.registered_cars == 'Registered cars: AAA-111'
 
-#
-def test_car_number_del():
-    test11 = car.Car('TTT-888')
-    test10 = car.Car()
-    test10.car_number = 'TTT-777'
-    del test10
-    assert test11.car_count == 1
-    assert test11.registered_cars == 'Registered cars: TTT-888'
+
+def test_car_number_del(car_number_one, car_number_two):
+    del car_number_one
+    assert car_number_two[1].car_count == 2
+    assert car_number_two[1].registered_cars == 'Registered cars: AAA-111, BBB-111'
+
+
+
+
+
+
